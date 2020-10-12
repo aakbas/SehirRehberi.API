@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "+UZ6AfGIAVpjJd8BT31uAQ4P/SOkbKNcLJ53MaY8QpyF6TNw5ebKBFJ99rmoIexF0I8lDphJNVIzA6KhLScQaw==",
+  "dgSpecHash": "I9dGRo5c1GOgI4JfdMc/g+DXIm/vDRxu817SNEL1VId66e5Tu/2u9VGP3FlSrZHOE7Mc4gyQVe58CvfSSlQxNg==",
   "success": true,
   "projectFilePath": "C:\\Users\\abdul\\source\\repos\\SehirRehberi.API\\SehirRehberi.API\\SehirRehberi.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\abdul\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\abdul\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.1.1\\microsoft.aspnetcore.antiforgery.2.1.1.nupkg.sha512",
@@ -102,7 +104,7 @@
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.codeanalysis.common\\2.8.0\\microsoft.codeanalysis.common.2.8.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.codeanalysis.csharp\\2.8.0\\microsoft.codeanalysis.csharp.2.8.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.codeanalysis.razor\\2.1.1\\microsoft.codeanalysis.razor.2.1.1.nupkg.sha512",
-    "C:\\Users\\abdul\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\abdul\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.1.0\\microsoft.dotnet.platformabstractions.2.1.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.entityframeworkcore\\2.1.1\\microsoft.entityframeworkcore.2.1.1.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\2.1.1\\microsoft.entityframeworkcore.abstractions.2.1.1.nupkg.sha512",
@@ -127,7 +129,7 @@
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.extensions.configuration.usersecrets\\2.1.1\\microsoft.extensions.configuration.usersecrets.2.1.1.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.extensions.configuration.xml\\2.1.1\\microsoft.extensions.configuration.xml.2.1.1.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\2.1.1\\microsoft.extensions.dependencyinjection.2.1.1.nupkg.sha512",
-    "C:\\Users\\abdul\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.1\\microsoft.extensions.dependencyinjection.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\abdul\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.8\\microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.extensions.dependencymodel\\2.1.0\\microsoft.extensions.dependencymodel.2.1.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.extensions.diagnosticadapter\\2.1.0\\microsoft.extensions.diagnosticadapter.2.1.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.1.1\\microsoft.extensions.fileproviders.abstractions.2.1.1.nupkg.sha512",
@@ -150,9 +152,9 @@
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.extensions.logging.eventsource\\2.1.1\\microsoft.extensions.logging.eventsource.2.1.1.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.extensions.logging.tracesource\\2.1.1\\microsoft.extensions.logging.tracesource.2.1.1.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.extensions.objectpool\\2.1.1\\microsoft.extensions.objectpool.2.1.1.nupkg.sha512",
-    "C:\\Users\\abdul\\.nuget\\packages\\microsoft.extensions.options\\2.1.1\\microsoft.extensions.options.2.1.1.nupkg.sha512",
+    "C:\\Users\\abdul\\.nuget\\packages\\microsoft.extensions.options\\3.1.8\\microsoft.extensions.options.3.1.8.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\2.1.1\\microsoft.extensions.options.configurationextensions.2.1.1.nupkg.sha512",
-    "C:\\Users\\abdul\\.nuget\\packages\\microsoft.extensions.primitives\\2.1.1\\microsoft.extensions.primitives.2.1.1.nupkg.sha512",
+    "C:\\Users\\abdul\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.extensions.webencoders\\2.1.1\\microsoft.extensions.webencoders.2.1.1.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.identitymodel.logging\\5.2.0\\microsoft.identitymodel.logging.5.2.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.identitymodel.protocols\\5.2.0\\microsoft.identitymodel.protocols.5.2.0.nupkg.sha512",
@@ -200,7 +202,7 @@
     "C:\\Users\\abdul\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.collections.specialized\\4.3.0\\system.collections.specialized.4.3.0.nupkg.sha512",
-    "C:\\Users\\abdul\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512",
+    "C:\\Users\\abdul\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.console\\4.3.0\\system.console.4.3.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.data.sqlclient\\4.5.1\\system.data.sqlclient.4.5.1.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.diagnostics.contracts\\4.3.0\\system.diagnostics.contracts.4.3.0.nupkg.sha512",
@@ -224,7 +226,7 @@
     "C:\\Users\\abdul\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.linq.queryable\\4.0.1\\system.linq.queryable.4.0.1.nupkg.sha512",
-    "C:\\Users\\abdul\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\abdul\\.nuget\\packages\\system.memory\\4.5.2\\system.memory.4.5.2.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.net.http\\4.3.0\\system.net.http.4.3.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.net.primitives\\4.3.0\\system.net.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.net.websockets.websocketprotocol\\4.5.1\\system.net.websockets.websocketprotocol.4.5.1.nupkg.sha512",
@@ -232,7 +234,7 @@
     "C:\\Users\\abdul\\.nuget\\packages\\system.objectmodel\\4.3.0\\system.objectmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.private.datacontractserialization\\4.3.0\\system.private.datacontractserialization.4.3.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\abdul\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\abdul\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
@@ -241,7 +243,7 @@
     "C:\\Users\\abdul\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
-    "C:\\Users\\abdul\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Users\\abdul\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",
@@ -282,5 +284,36 @@
     "C:\\Users\\abdul\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Bağımlılık kısıtlaması dışında algılanan paket sürümü: Microsoft.AspNetCore.App 2.1.1, Microsoft.Extensions.DependencyInjection.Abstractions (>= 2.1.1 && < 2.2.0) gerektiriyor ancak sürüm Microsoft.Extensions.DependencyInjection.Abstractions 3.1.8 çözümlenmiş.",
+      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Bağımlılık kısıtlaması dışında algılanan paket sürümü: Microsoft.AspNetCore.App 2.1.1, Microsoft.Extensions.Options (>= 2.1.1 && < 2.2.0) gerektiriyor ancak sürüm Microsoft.Extensions.Options 3.1.8 çözümlenmiş.",
+      "libraryId": "Microsoft.Extensions.Options",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Bağımlılık kısıtlaması dışında algılanan paket sürümü: Microsoft.AspNetCore.App 2.1.1, Microsoft.Extensions.Primitives (>= 2.1.1 && < 2.2.0) gerektiriyor ancak sürüm Microsoft.Extensions.Primitives 3.1.8 çözümlenmiş.",
+      "libraryId": "Microsoft.Extensions.Primitives",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
 }

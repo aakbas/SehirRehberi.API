@@ -9,10 +9,10 @@ C:\Users\abdul\source\repos\SehirRehberi.API\SehirRehberi.API\bin\Debug\netcorea
 C:\Users\abdul\source\repos\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.1\SehirRehberi.API.csprojAssemblyReference.cache
 C:\Users\abdul\source\repos\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.1\SehirRehberi.API.AssemblyInfoInputs.cache
 C:\Users\abdul\source\repos\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.1\SehirRehberi.API.AssemblyInfo.cs
-C:\Users\abdul\source\repos\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.1\SehirRehberi.API.csproj.CoreCompileInputs.cache
 C:\Users\abdul\source\repos\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.1\SehirRehberi.API.RazorAssemblyInfo.cache
 C:\Users\abdul\source\repos\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.1\SehirRehberi.API.RazorAssemblyInfo.cs
 C:\Users\abdul\source\repos\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.1\SehirRehberi.API.RazorTargetAssemblyInfo.cache
 C:\Users\abdul\source\repos\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.1\SehirRehberi.API.dll
 C:\Users\abdul\source\repos\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.1\SehirRehberi.API.pdb
 C:\Users\abdul\source\repos\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.1\SehirRehberi.API.genruntimeconfig.cache
+C:\Users\abdul\source\repos\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.1\SehirRehberi.API.csproj.CoreCompileInputs.cache
