@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Internal;
 using SehirRehberi.API.Data;
 using SehirRehberi.API.Dtos;
+using SehirRehberi.API.Models;
 
 namespace SehirRehberi.API.Controllers
 {
@@ -30,6 +31,24 @@ namespace SehirRehberi.API.Controllers
             var cities = _appRepository.GetCities() ;
            var citiesToReturn = _mapper.Map<List<CityForListDto>>(cities);
             return Ok(citiesToReturn);
+        }
+
+        [HttpPost]
+        [Route("Add")]
+        public ActionResult Add([FromBody]City city)
+        {
+            _appRepository.Add(city);
+            _appRepository.SaveAll();
+            return Ok(city);
+        }
+
+        [HttpGet]
+        [Route ("detail")]
+        public ActionResult GetCitiesById(int id)
+        {
+            var city = _appRepository.GetCityById(id);
+            var citiyToReturn = _mapper.Map<CityForDetailDto>(city);
+            return Ok(citiyToReturn);
         }
 
 
