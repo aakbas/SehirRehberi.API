@@ -15,4 +15,3 @@ C:\Users\abdul\source\repos\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcorea
 C:\Users\abdul\source\repos\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.1\SehirRehberi.API.dll
 C:\Users\abdul\source\repos\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.1\SehirRehberi.API.pdb
 C:\Users\abdul\source\repos\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.1\SehirRehberi.API.genruntimeconfig.cache
-C:\Users\abdul\source\repos\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.1\SehirRehberi.API.csproj.CoreCompileInputs.cache
