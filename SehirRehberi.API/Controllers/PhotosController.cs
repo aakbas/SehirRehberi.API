@@ -45,8 +45,8 @@ namespace SehirRehberi.API.Controllers
                 return BadRequest("Could not find the city");
             }
 
-            var currenUserId =int.Parse( User.FindFirst(ClaimTypes.NameIdentifier).Value);
-            if (currenUserId!=city.UserId)
+            var currentUserId =int.Parse( User.FindFirst(ClaimTypes.NameIdentifier).Value);
+            if (currentUserId!=city.UserId)
             {
                 return Unauthorized();
             }
@@ -64,11 +64,13 @@ namespace SehirRehberi.API.Controllers
                 uploadResult = _cloudinary.Upload(uploadParams);
                 }
             }
-            photoForCreationDto.Url = uploadResult.Uri.ToString();
+            photoForCreationDto.Url = uploadResult.Url.ToString();
             photoForCreationDto.PublicId = uploadResult.PublicId;
 
             var photo = _mapper.Map<Photo>(photoForCreationDto);
             photo.City = city;
+            photo.UserId = currentUserId;
+
             if (!city.Photos.Any(p => p.IsMain))
             {
                 photo.IsMain = true;

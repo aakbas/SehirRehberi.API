@@ -17,5 +17,6 @@ namespace SehirRehberi.API.Models
         public string Description { get; set; }
         public List<Photo> Photos { get; set; }
         public User User { get; set; }
+        public Rating Rating { get; set; }
     }
 }

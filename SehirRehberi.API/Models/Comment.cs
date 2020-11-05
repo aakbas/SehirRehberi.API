@@ -5,13 +5,18 @@ using System.Threading.Tasks;
 
 namespace SehirRehberi.API.Models
 {
-    public class User
+    public class Comment
     {
-       
+
         public int Id { get; set; }
-        public string UserName { get; set; }
-        public byte[] PasswordHash { get; set; }
-        public byte[] PasswordSalt { get; set; }
+
+        public int PhotoId { get; set; }
+
+        public string CommentDetail { get; set; }
+
+        public int UpVote{ get; set; }      
+
+
 
     }
 }

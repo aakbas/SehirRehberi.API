@@ -52,6 +52,27 @@ namespace SehirRehberi.API.Data
             return photos;
         }
 
+        public List<Photo> GetPhotosByUserId(int userId)
+        {
+            var photos = _context.Photos.Where(p => p.UserId == userId).ToList();
+            return photos;
+        }
+
+        public List<Comment> GetCommentsByPhoto(int photoId)
+        {
+            var comments = _context.Comments.Where(p => p.PhotoId == photoId).ToList();
+            return comments;
+        }
+
+        public Rating GetCityRating(int cityId)
+        {
+            var rating = _context.Ratings.Where(p => p.CityId == cityId).FirstOrDefault();
+            return rating;
+        }
+
+
+
+
         public bool SaveAll()
         {
             return _context.SaveChanges() > 0;
