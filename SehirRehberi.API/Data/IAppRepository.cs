@@ -1,4 +1,5 @@
-﻿using SehirRehberi.API.Models;
+﻿using SehirRehberi.API.Dtos;
+using SehirRehberi.API.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +16,11 @@ namespace SehirRehberi.API.Data
         List<Photo> GetPhotosByCity(int id);
         City GetCityById(int cityId);
         Photo GetPhoto(int id);
-         
+        List<Photo> GetPhotosByUserId(int userId);
+        List<Comment> GetCommentsByPhoto(int photoId);
+        Rating GetCityRating(int cityId);
+
+        void UpdateRating(int cityId,RatingDto ratingDto);
 
     }
 }

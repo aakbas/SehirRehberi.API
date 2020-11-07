@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using SehirRehberi.API.Dtos;
 using SehirRehberi.API.Models;
 using System;
 using System.Collections.Generic;
@@ -66,7 +68,8 @@ namespace SehirRehberi.API.Data
 
         public Rating GetCityRating(int cityId)
         {
-            var rating = _context.Ratings.Where(p => p.CityId == cityId).FirstOrDefault();
+            var rating = _context.Rating.Where(p => p.CityId == cityId).FirstOrDefault();
+       
             return rating;
         }
 
@@ -76,6 +79,32 @@ namespace SehirRehberi.API.Data
         public bool SaveAll()
         {
             return _context.SaveChanges() > 0;
+        }
+
+        public void UpdateRating(int cityId,RatingDto ratingDto)
+        {
+            var tempRating = new Rating();
+            var ratingToUpdate = _context.Rating.Where(p => p.CityId == cityId).FirstOrDefault();            
+            if (ratingToUpdate!=null)
+            {
+                // Store Current Data In Temp
+                tempRating.Food = ratingToUpdate.Food*ratingToUpdate.Counter;
+                tempRating.Pricing = ratingToUpdate.Pricing * ratingToUpdate.Counter;
+                tempRating.Transportation = ratingToUpdate.Transportation * ratingToUpdate.Counter;
+                tempRating.View = ratingToUpdate.View * ratingToUpdate.Counter;
+                tempRating.Counter = ratingToUpdate.Counter + 1;
+                // Update data on temp
+                tempRating.Food += ratingDto.Food;
+                 tempRating.Pricing += ratingDto.Pricing;
+                tempRating.Transportation += ratingDto.Transportation;
+                tempRating.View += ratingDto.View;
+                // Calculate and Declare new rating
+                ratingToUpdate.Food = tempRating.Food / tempRating.Counter;
+                ratingToUpdate.Pricing = tempRating.Pricing / tempRating.Counter;
+                ratingToUpdate.Transportation = tempRating.Transportation / tempRating.Counter;
+                ratingToUpdate.View = tempRating.View / tempRating.Counter;
+                ratingToUpdate.Counter = tempRating.Counter;
+            }
         }
     }
 }

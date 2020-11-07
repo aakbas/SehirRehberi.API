@@ -6,6 +6,7 @@ using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SehirRehberi.API.Data;
+using SehirRehberi.API.Dtos;
 using SehirRehberi.API.Models;
 
 namespace SehirRehberi.API.Controllers
@@ -34,13 +35,22 @@ namespace SehirRehberi.API.Controllers
                 Transportation = 0,
                 Food=0,
                 View=0,
-                Pricing=0
+                Pricing=0,
+                Counter=0
             };
             _appRepository.Add(newRating);
             _appRepository.SaveAll();
             return Ok(newRating);
         }
 
+        [HttpPost("NewRating")]
 
+        public ActionResult NewRating(int cityId,[FromBody] RatingDto ratingDto) {
+
+            _appRepository.UpdateRating(cityId, ratingDto);
+            _appRepository.SaveAll();
+            return Ok();
+        
+        }
     }
 }

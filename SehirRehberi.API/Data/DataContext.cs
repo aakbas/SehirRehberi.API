@@ -18,7 +18,7 @@ namespace SehirRehberi.API.Data
         public DbSet<City  > Cities { get; set; }
         public DbSet<Photo> Photos { get; set; }
         public DbSet<User> Users { get; set; }
-        public DbSet<Rating> Ratings { get; set; }
+        public DbSet<Rating> Rating { get; set; }
         public DbSet<Comment> Comments { get; set; }
 
 
