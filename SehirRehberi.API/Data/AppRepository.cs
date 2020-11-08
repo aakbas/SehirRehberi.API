@@ -106,5 +106,7 @@ namespace SehirRehberi.API.Data
                 ratingToUpdate.Counter = tempRating.Counter;
             }
         }
+
+      
     }
 }

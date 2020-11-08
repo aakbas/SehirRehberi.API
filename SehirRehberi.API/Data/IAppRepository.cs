@@ -19,8 +19,7 @@ namespace SehirRehberi.API.Data
         List<Photo> GetPhotosByUserId(int userId);
         List<Comment> GetCommentsByPhoto(int photoId);
         Rating GetCityRating(int cityId);
-
         void UpdateRating(int cityId,RatingDto ratingDto);
-
+       
     }
 }

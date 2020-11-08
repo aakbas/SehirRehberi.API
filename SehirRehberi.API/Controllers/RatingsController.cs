@@ -52,5 +52,16 @@ namespace SehirRehberi.API.Controllers
             return Ok();
         
         }
+
+
+        [HttpGet("Rating")]
+        public ActionResult GetRatingByCityId(int cityId)
+        {
+            var rating = _appRepository.GetCityRating(cityId);
+            var ratingToReturn = _mapper.Map<RatingDto>(rating);
+            return Ok(ratingToReturn);
+
+        }
+
     }
 }
