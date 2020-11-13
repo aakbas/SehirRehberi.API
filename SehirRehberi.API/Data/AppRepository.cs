@@ -73,9 +73,6 @@ namespace SehirRehberi.API.Data
             return rating;
         }
 
-
-
-
         public bool SaveAll()
         {
             return _context.SaveChanges() > 0;
@@ -107,6 +104,20 @@ namespace SehirRehberi.API.Data
             }
         }
 
-      
+        public void CommentUpvote(int commentId,int upDown)
+        {
+            var commentToUpvote = _context.Comments.Where(p => p.Id == commentId).FirstOrDefault();
+            if (commentToUpvote != null)
+            {
+                if (upDown==1)
+                {
+                    commentToUpvote.UpVote++;
+                }
+                else
+                {
+                    commentToUpvote.UpVote--;
+                }
+            }
+        }
     }
 }
